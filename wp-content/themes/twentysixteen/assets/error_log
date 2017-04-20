@@ -1,0 +1,81 @@
+[25-Jun-2016 12:36:57 America/Chicago] PHP Warning:  scandir(/home/piratetalkapp/admin/public_html/ci/assets/inc/stylesheets): failed to open dir: No such file or directory in /home/piratetalkapp/admin/public_html/assets/serve.php on line 45
+[25-Jun-2016 12:36:57 America/Chicago] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/piratetalkapp/admin/public_html/assets/serve.php on line 45
+[25-Jun-2016 12:36:57 America/Chicago] PHP Warning:  preg_grep() expects parameter 2 to be array, boolean given in /home/piratetalkapp/admin/public_html/assets/serve.php on line 45
+[25-Jun-2016 12:37:03 America/Chicago] PHP Warning:  fopen(/home/piratetalkapp/admin/public_html/ci/assets/css/style.css): failed to open stream: No such file or directory in /home/piratetalkapp/admin/public_html/assets/serve.php on line 72
+[25-Jun-2016 12:37:03 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/piratetalkapp/admin/public_html/assets/serve.php on line 73
+[25-Jun-2016 12:37:03 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/piratetalkapp/admin/public_html/assets/serve.php on line 74
+[25-Jun-2016 12:38:36 America/Chicago] PHP Warning:  fopen(/home/piratetalkapp/admin/public_html/ci/assets/css/style.css): failed to open stream: No such file or directory in /home/piratetalkapp/admin/public_html/assets/serve.php on line 72
+[25-Jun-2016 12:38:36 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/piratetalkapp/admin/public_html/assets/serve.php on line 73
+[25-Jun-2016 12:38:36 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/piratetalkapp/admin/public_html/assets/serve.php on line 74
+[10-Nov-2016 12:39:53 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `300;` theme/theme.scss on line 177' in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/cameoandsablebea/public_html/assets/ in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php on line 120
+[10-Nov-2016 12:40:07 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `300;` theme/theme.scss on line 177' in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/cameoandsablebea/public_html/assets/ in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php on line 120
+[14-Nov-2016 08:59:39 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\CompilerException' with message 'Undefined variable $screem_sm: line: 323' in /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php:3249
+Stack trace:
+#0 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(2931): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1941): Leafo\ScssPhp\Compiler->get('screem-sm')
+#2 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(2459): Leafo\ScssPhp\Compiler->reduce(Array)
+#3 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1218): Leafo\ScssPhp\Compiler->compileValue(Array)
+#4 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(523): Leafo\ScssPhp\Compiler->compileMediaQuery(Array)
+#5 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1410): Leafo\ScssPhp\Compiler->compileMedia(Object(Leafo\ScssPhp\Block))
+#6 /home/cameoandsablebea/public_html/assets/scssphp/src/Comp in /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php on line 3249
+[17-Nov-2016 07:08:51 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `padding: 0 ()$grid-gutter-width /2);` theme/theme.scss on line 620' in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/came in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php on line 120
+[17-Nov-2016 07:29:06 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `background: ;` theme/theme.scss on line 967' in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/cameoandsablebea/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/cameoandsablebea/public_htm in /home/cameoandsablebea/public_html/assets/scssphp/src/Parser.php on line 120
+[22-Nov-2016 08:46:10 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `max-width: 66.^%;` theme/theme.scss on line 230' in /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileI in /home/infernop/tasracing.infernopromotions.com.au/assets/scssphp/src/Parser.php on line 120
+[16-Dec-2016 03:04:49 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `&.not(:first-child) {` theme/theme.scss on line 424' in /home/tasracingclub/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/tasracingclub/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/tasracingclub/public_html/assets/scss in /home/tasracingclub/public_html/assets/scssphp/src/Parser.php on line 120
+[16-Dec-2016 03:06:49 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `&.not(:first-child) {` theme/theme.scss on line 413' in /home/tasracingclub/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/tasracingclub/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/tasracingclub/public_html/assets/scss in /home/tasracingclub/public_html/assets/scssphp/src/Parser.php on line 120
+[16-Dec-2016 03:07:16 UTC] PHP Fatal error:  Uncaught exception 'Leafo\ScssPhp\Exception\ParserException' with message 'parse error: failed at `&.not(:first-child) {` theme/theme.scss on line 413' in /home/tasracingclub/public_html/assets/scssphp/src/Parser.php:120
+Stack trace:
+#0 /home/tasracingclub/public_html/assets/scssphp/src/Parser.php(155): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(3156): Leafo\ScssPhp\Parser->parse('// Fonts\r\n//\r\n/...')
+#2 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1334): Leafo\ScssPhp\Compiler->importFile('theme/theme.scs...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1357): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/tasracingclub/public_html/assets/scssphp/src/Compiler.php(1396): Leafo\ScssPhp\Compiler->compileImport(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#5 /home/tasracingclub/public_html/assets/scss in /home/tasracingclub/public_html/assets/scssphp/src/Parser.php on line 120
